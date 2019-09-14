@@ -1,0 +1,84 @@
+<html>
+	<head>
+	<style>
+	h1{
+	text-align:center;
+	color:blue;
+	}
+	body{
+	background-color:lightgreen;
+	}
+	li{
+	display:inline;
+	float:left;
+	}
+	a{
+	display:block;
+	padding:8px;
+	border: black 2px solid;
+	background-color:skyblue;
+	}
+	textarea{
+	background:skyblue;
+	}
+	</style>
+		<title> Practica 1 LDOO </title>
+	</head>
+<body>
+	<h1> Lugares para comer en Nuevo Le&oacute;n </h1>
+	<p> 
+	 <b> Bienvenido, te presentamos algunos lugares turisticos para que disfrutes de tu estadia en Nuevo Le&oacute;n </b>
+	</p>
+	<ol>
+		 <li> <a href="https://www.parquefundidora.org/"> Parque Fundidora </a> </li>
+		 <li> <a href="http://www.bosquemagico.com/"> Bosque Magico </a> </li>
+		 <li> <a href="http://paseolafe.com/"> Santa Lucia </a> </li>
+		 <li> <a href="http://www.horno3.org/"> Museo del acero, Horno3 </a> </li>
+	</ol>
+	<br> <br>	
+	<p> 
+	Bienvenido a este gran estado lleno de lugares turisticos increbiles donde podras encontra de todo tipo, desde un gran parque donde podras caminar por mucho tiempo, andar en bicicleta,
+	pasar el rato sentado o simplemente conversar hasta un parque de diversiones lleno de juegos mecanicos con una gran adrenalina. Este gran estado casi lo tiene todo, aqui te mostramos un
+	par de lugares, elegi el que mas te guste y una vez mas bienvenido.
+	</p>
+	<br> <br>
+		<img src="https://www.revistabuenviaje.com/conocemexico/destinos/nuevoleon/monterrey/monterrey_12.jpg" width="430" height="200"/> 
+		<img src="https://blog.seccionamarilla.com.mx/wp-content/uploads/2018/02/Turismo-en-Monterrey-770x578.jpg" width="430" height="200"/>
+		<img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2017/09/parque-ecologico-huasteca-mac-800-3.jpg" width="430" height="200"/>
+	<br> <br>
+	<p> Si quieres recibir mas informaci&oacute;n sobre Nuevo Le&oacute;n registrate </p>
+	  <form name="datos" action="datos.php"> 
+		<br>
+		Nombre:
+		<input type="text" name="Nombre"/>
+		<br>
+		Correo:
+		<input type="email" name="Correo"/>
+		Fecha 
+		<input type="datetime-local" name"fecha y hora"/>
+		<br> <br>
+		<input type="reset" value="Borrar"/>
+		<input type="submit" value="Enviar"/>
+	  </form>
+	<br>
+	<textarea name="Sugerencias" rows="10" cols="40">  Manda tus sugerencias para mejorar la pagina:
+		
+		</textarea>
+	<br> <br>
+	
+	<script type="text/javascript">
+	var f = new Date();
+	document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear(), ','+f.getHours(),':'+f.getMinutes(),':'+f.getSeconds());
+	</script>
+	
+	<p> Califique su estadia en Nuevo Le&oacute;n </p>
+	 <select name="tema" id="tema"/>
+		<option name="-1"> Califique </option>
+		<option value="1"> Mala </option>
+		<option value="2"> Regular </option>
+		<option value="3"> Buena </option>
+	<br> <br> <br>
+	
+
+</body>
+</html>
